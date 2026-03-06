@@ -29,9 +29,9 @@ pipeline{
             steps{
                 sh '''
                     cd FlightReservationApplication
-                    docker build -t anuppogade/fligh-reservation-pls14:latest .
-                    docker push anuppogade/fligh-reservation-pls14:latest
-                    docker rmi anuppogade/fligh-reservation-pls14:latest
+                    docker build -t anuppogade/fligh-reservation-demo:latest .
+                    docker push anuppogade/fligh-reservation-demo:latest
+                    docker rmi anuppogade/fligh-reservation-demo:latest
 
                 '''
             }
